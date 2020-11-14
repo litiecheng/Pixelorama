@@ -20,7 +20,7 @@ jobs:
     name: Windows Export 🗔
     runs-on: ubuntu-latest
     container:
-      image: docker://overloadedorama/godottest:latest
+      image: docker://barichello/godot-ci:3.2.3
     steps:
       - name: Setup WINE and rcedit 🍷
         run: |
